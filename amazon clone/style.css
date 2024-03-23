@@ -1,0 +1,256 @@
+*
+{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+
+
+}
+.navbar
+{
+    height:60px;
+    background-color: #0f0f0f;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.logo
+{
+    background-image: url("./Flag_of_the_United_States.svg.jpg");
+    height: 20px;
+    width: 60px;
+    background-size: cover;
+    
+}
+.nav-logo
+{
+    height: 50px;
+width: 100px;
+}
+.border
+{
+    border: 2px solid transparent;
+}
+.d{
+    font-size:small;
+    color: #cccccc;
+    
+    
+}
+.f{
+    font-size: larger;
+    color: #ffff;
+    margin: 3px;
+    
+}
+.delivery{
+    display: flex;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+background-color: pink;
+border-radius: 3px;
+justify-content: space-evenly;
+}
+.search-icon{
+    
+    
+    align-items: center;
+}
+.search-select{
+    border-top-left-radius: 3px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    background-color:  orange;
+    border-top-right-radius:3px ;
+    border-bottom-right-radius: 4px;
+    color: #110f0f;
+}
+.enlogo
+{
+    display: flex;
+    height: 16px;
+    width: 30px;
+}
+.en{
+
+    width: 81px;
+    height:33px;
+}
+.select1{
+    background-color: #110f0f;
+    color: white;
+    margin: 0;
+}
+.d
+{
+    display: flex;
+    
+}
+.fk
+{
+    font-size: 1rem;
+}
+.gf{
+    font-size: 1.5rem;
+}
+.n{
+    background-color:bisque;
+}
+.cd{
+    display: flex;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.panel
+{
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display:inline;
+    margin: 10px;
+    
+
+}
+.panel-ops{
+    width: 70%;
+    font:0.85rem;
+}
+.panel-deals
+{
+font-size: 1rem;
+font-weight: 700;
+}
+.hero-section{
+    background-image: url("./hero1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+ 
+   height: 400px;
+    
+
+}
+.hero-message
+{
+    background-color: azure;
+    color: #0f0f0f;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    width: 80%;
+    bottom: -340px;
+    
+    
+}
+.hero-message a{
+    color: #007185;
+}
+/**/
+.box
+{
+    
+    
+    height: 400px;
+    width: 23%;
+    background-color:white;
+    border:  2px solid black;
+
+    
+    padding: 20px 0px 15px;
+
+}
+.shop
+{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(115, 115, 183);
+}
+.box-img
+{
+    
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box-content
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.foot{
+    display: flex;
+    height:49px;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    color: white;
+    font-family: 0.5rem;
+    margin-top : 10px;
+}
+.panel2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #212e3e;
+    color:aliceblue;
+    
+}
+ul li{
+    font-size: small;
+    margin-top: 10px;
+}
+ul
+{
+    margin-top: 20px;
+}
+.panel3{
+    background-color:#212e3e ;
+    height: 500px;
+    display: flex;
+    color: aliceblue;
+    border-top:0.5px solid white ;
+    justify-content: center;
+    align-items: center;
+    
+}
+.l
+{
+    background-image:url("./download.png");
+    height: 120px;
+    display: flex;
+    align-items: center;
+    
+    width: 400px; 
+}
